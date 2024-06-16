@@ -1,0 +1,345 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c06378;
+    color:  #321e25;
+}
+
+header {
+    background-color: #c06378;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: #faf2dd;
+  }
+
+  body {
+    background-image: url("picture/pink\ bg.jpg");
+  }
+
+.logo {
+    width: 150px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+    }
+
+#navbar {
+        overflow: hidden;
+        background-color: #663845;
+      }
+      
+#navbar {
+        overflow: hidden;
+        background-color: #8b4e5e;
+        border-bottom: 1px solid #faf2dd;
+        text-align: center;
+      }
+      
+#navbar a {
+        display: inline-block;
+        color: #faf2dd;  
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      
+#navbar a:hover {
+        background-color: #321e25;
+        color: #e894a7;
+      }
+
+.sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+.content {
+    padding: 16px;
+  
+}
+
+h1, h2, h3, h4 {
+    color: #663845
+}
+
+.center {
+    text-align: center;
+    padding: 50px 0;
+}
+
+section {
+    padding: 10px;
+    margin: 20px 0;
+    background: #faf2dd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    background-color: #f9adb7
+    
+}
+
+.about h1 {
+    text-align: center;
+}  
+.about h3 {
+    text-align: center;
+}  
+
+.about p {
+text-align: center;
+
+}
+.about img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+border-radius: 50%;
+}
+
+.feature-btn{
+  margin: 70px auto 0;
+}
+.feature-btn a{
+  width: 150px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12px 0;
+  color: #663845;
+  border: .5px solid #faf2dd;
+  position: relative;
+  z-index: 1;
+}
+.feature-btn a span{
+  width:0 ;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background:  #faf2dd;
+  z-index: -1;
+  transition: 0.5s;
+}
+.feature-btn a:hover span{
+  width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+    background-color: #f9adb7
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9adb7
+}
+
+.article p {
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.educational-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9adb7
+}
+.educational-background h3, .achievements h3 {
+    margin: 10px 0;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e894a7
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    margin: 10px 0;
+}
+
+.bar {
+    width: 100%;
+    background-color: #faf2dd;
+}
+
+.bar span {
+    display: block;
+    height: 20px;
+    background-color: #c06378;
+}
+
+.Coding {
+    width: 90%;
+}
+
+.Microsoft-Word-Excel-Access {
+    width: 80%;
+}
+
+.Capcut {
+    width: 70%;
+}
+
+.Cultural-Dance {
+    width: 95%;
+}
+
+.slideshow-container {
+    max-width: 700px;
+    position: relative;
+    margin: auto;
+  }
+
+  .mySlides {
+    display: none;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev {
+    left: 0;
+    border-radius: 3px 3px 0 0;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fec9c3;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #663845;
+    color: #faf2dd;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color:  #321e25;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:#8b4e5e;
+    color: #faf2dd;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
